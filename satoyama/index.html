@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>山・里ブース 出展団体紹介｜きょうと☆いきものフェス！</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#fff8ea;--card:#fffdf7;--ink:#4a3826;--teal:#2fa39b;--teal-d:#23877f;--org:#f28a1e;--yel:#ffe14d;
+--pink:#f283a5;--grn:#8fc866;--pur:#b39ddb;--mut:#8a7358;--bd:#f0d9ae;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#22313a;--card:#2c3f47;--ink:#f4ecdc;--mut:#bfae95;--bd:#47606a}}
+:root[data-theme="dark"]{--bg:#22313a;--card:#2c3f47;--ink:#f4ecdc;--mut:#bfae95;--bd:#47606a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+background-image:radial-gradient(rgba(120,90,50,.07) 1.2px,transparent 1.3px);
+background-size:20px 20px;
+font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7}
+/* ===== ヘッダー ===== */
+header{background:linear-gradient(180deg,#35b3aa,#2fa39b 60%,#2b9d94);color:#fff;text-align:center;
+padding:88px 16px 80px;position:relative;overflow:hidden}
+.deco{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.deco.bunting{height:auto;top:0;left:0}
+.kicker{display:inline-block;background:#fff;color:var(--teal-d);font-weight:700;font-size:13px;
+padding:4px 18px;border-radius:6px;transform:rotate(-2deg);box-shadow:2px 3px 0 rgba(0,0,0,.15);position:relative}
+h1{margin:18px 0 6px;font-weight:900;line-height:1.2;font-size:clamp(30px,8vw,52px);
+color:var(--yel);letter-spacing:2px;
+text-shadow:3px 0 0 #fff,-3px 0 0 #fff,0 3px 0 #fff,0 -3px 0 #fff,3px 3px 0 #fff,-3px 3px 0 #fff,3px -3px 0 #fff,-3px -3px 0 #fff,6px 7px 0 rgba(0,0,0,.18)}
+h1 small{display:block;color:#fff;letter-spacing:6px;font-weight:700;font-size:.42em;
+text-shadow:1px 2px 0 rgba(0,0,0,.2);margin-top:10px}
+header:after{content:"";position:absolute;left:-5%;right:-5%;bottom:-2px;height:34px;background:var(--bg);
+border-radius:50% 50% 0 0/100% 100% 0 0}
+.lead{max-width:620px;margin:14px auto 0;font-size:14.5px;font-weight:500;position:relative;text-shadow:1px 1px 0 rgba(0,0,0,.12)}
+/* ===== メイン ===== */
+main{max-width:980px;margin:0 auto;padding:4px 16px 56px;position:relative}
+h2.sec{display:inline-block;font-size:17px;font-weight:900;margin:8px 0 12px;position:relative}
+h2.sec:after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:8px;border-radius:4px;
+background:linear-gradient(90deg,rgba(255,225,77,.0),rgba(255,225,77,.85) 12%,rgba(255,225,77,.85) 88%,rgba(255,225,77,0));transform:rotate(-.6deg)}
+.filters{display:flex;flex-wrap:wrap;gap:9px;margin:6px 0 12px}
+.filters button{border:2.5px solid var(--org);background:var(--card);color:var(--org);
+border-radius:14px 18px 15px 20px/20px 15px 18px 14px;padding:6px 18px;font:inherit;font-weight:700;cursor:pointer;
+box-shadow:2px 2px 0 rgba(120,80,30,.18);transition:transform .15s}
+.filters button:nth-child(odd){transform:rotate(-1deg)}
+.filters button:nth-child(even){transform:rotate(1deg)}
+.filters button:hover{transform:rotate(0) translateY(-2px)}
+.filters button.on{background:var(--org);color:#fff;transform:rotate(-1.5deg)}
+.count{color:var(--mut);font-size:13px;margin:0 0 16px;font-weight:700}
+.count b{background:linear-gradient(transparent 55%,rgba(255,225,77,.9) 55%);padding:0 4px;color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px 18px;padding-top:8px}
+.card{background:var(--card);border:2.5px solid var(--bd);border-radius:18px 22px 16px 24px;
+padding:20px 18px 16px;position:relative;display:flex;flex-direction:column;gap:9px;
+box-shadow:3px 4px 0 rgba(120,80,30,.14);transition:transform .18s,box-shadow .18s}
+.card:nth-child(3n+1){transform:rotate(-.7deg)}
+.card:nth-child(3n+2){transform:rotate(.5deg)}
+.card:nth-child(3n){transform:rotate(-.3deg)}
+.card:hover{transform:rotate(0) translateY(-4px);box-shadow:5px 8px 0 rgba(120,80,30,.16);z-index:1}
+.card:before{content:"";position:absolute;top:-12px;left:50%;width:86px;height:24px;
+transform:translateX(-50%) rotate(-3.5deg);background:rgba(242,131,165,.55);
+border-left:1px dashed rgba(255,255,255,.7);border-right:1px dashed rgba(255,255,255,.7);border-radius:2px}
+.no{position:absolute;top:-14px;left:12px;background:var(--org);color:#fff;font-weight:900;
+border-radius:99px;padding:2px 14px;font-size:15px;transform:rotate(-4deg);box-shadow:2px 2px 0 rgba(0,0,0,.18)}
+.card h3{margin:10px 0 0;font-size:17px;font-weight:900;line-height:1.45}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12px;font-weight:700;padding:1px 11px;border-radius:99px 90px 99px 88px;background:var(--bd);color:var(--ink)}
+.tag.ws{background:var(--teal);color:#fff}
+.tag.ob{background:var(--yel);color:#5a4a00}
+.tag.sp{background:var(--org);color:#fff}
+.tag.kj{background:var(--pur);color:#fff}
+.card p{margin:0;font-size:14px}
+.nt{margin:0;padding:8px 10px 8px 26px;background:rgba(255,225,77,.28);border:1.5px dashed var(--org);border-radius:10px;font-size:12.5px;font-weight:500}.nt li{margin:2px 0}
+.notice{background:var(--card);border:2.5px solid var(--org);border-radius:18px 22px 16px 24px;padding:14px 18px 12px;margin:6px 0 18px;box-shadow:3px 4px 0 rgba(120,80,30,.14)}.notice h2{margin:0 0 6px;font-size:16px;font-weight:900;color:var(--org)}.notice ul{margin:0;padding-left:20px;font-size:13.5px}.notice li{margin:3px 0}
+.link{margin-top:auto;font-size:13px;font-weight:700;color:var(--teal-d);word-break:break-all;text-decoration:none}
+.link:hover{text-decoration:underline}
+.foot-deco{display:block;margin:26px auto 0;max-width:280px;width:70%}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:0 16px 36px;font-weight:500}
+@media(prefers-reduced-motion:reduce){.card,.filters button{transition:none}}
+</style></head>
+<body>
+<header>
+<svg class="deco bunting" viewBox="0 0 900 120" aria-hidden="true">
+<path d="M-10 8 Q225 78 450 52 Q675 26 910 40" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".95"/>
+<g stroke="#fff" stroke-width="2">
+<polygon points="70,40 50,84 90,84" fill="#ffd23f"/>
+<polygon points="170,58 150,102 190,102" fill="#f283a5"/>
+<polygon points="270,66 250,110 290,110" fill="#8fc866"/>
+<polygon points="370,64 350,108 390,108" fill="#b39ddb"/>
+<polygon points="470,56 450,100 490,100" fill="#ff9d5c"/>
+<polygon points="570,46 550,90 590,90" fill="#ffd23f"/>
+<polygon points="670,40 650,84 690,84" fill="#f283a5"/>
+<polygon points="770,38 750,82 790,82" fill="#8fc866"/>
+<polygon points="860,40 840,84 880,84" fill="#b39ddb"/>
+</g>
+</svg>
+<svg class="deco" viewBox="0 0 900 260" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
+<g fill="#fff" opacity=".92">
+<g transform="translate(60,58)"><circle cx="0" cy="6" r="15"/><circle cx="20" cy="-4" r="19"/><circle cx="42" cy="6" r="14"/><rect x="-15" y="6" width="72" height="15" rx="7"/></g>
+<g transform="translate(742,34) scale(.8)"><circle cx="0" cy="6" r="15"/><circle cx="20" cy="-4" r="19"/><circle cx="42" cy="6" r="14"/><rect x="-15" y="6" width="72" height="15" rx="7"/></g>
+<g transform="translate(806,86) scale(.55)"><circle cx="0" cy="6" r="15"/><circle cx="20" cy="-4" r="19"/><circle cx="42" cy="6" r="14"/><rect x="-15" y="6" width="72" height="15" rx="7"/></g>
+</g>
+<g stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".95">
+<path d="M120 150 q7 -10 14 0 q7 -10 14 0"/>
+<path d="M165 132 q6 -8 12 0 q6 -8 12 0"/>
+</g>
+<g transform="translate(838,196)" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".95">
+<ellipse cx="0" cy="0" rx="5" ry="9" transform="rotate(20)"/>
+<ellipse cx="14" cy="-6" rx="5" ry="9" transform="rotate(60 14 -6)"/>
+<path d="M-8 12 q-3 8 1 14"/>
+</g>
+</svg>
+<p class="kicker">～水と緑のあふれる公園で集まろう！～</p>
+<h1>きょうと☆いきものフェス！<small>山・里ブース 出展団体紹介</small></h1>
+</header>
+<main>
+<h2 class="sec">ブースをさがす</h2>
+<div class="filters" id="f"></div><div class="count" id="c"></div><div class="grid" id="g"></div>
+<svg class="foot-deco" viewBox="0 0 280 80" aria-hidden="true">
+<g stroke="#b9a284" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M28 78 q4 -26 10 -40 M38 38 q-10 -8 -20 -4 M38 38 q2 -12 12 -16 M38 38 q10 -4 16 2"/>
+</g>
+<g fill="#f283a5"><circle cx="18" cy="30" r="5"/><circle cx="30" cy="18" r="5"/><circle cx="44" cy="20" r="5"/><circle cx="50" cy="32" r="5"/><circle cx="36" cy="36" r="5"/></g>
+<circle cx="34" cy="30" r="4.5" fill="#ffe14d"/>
+<g stroke="#b9a284" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M238 78 q-4 -30 -2 -44"/>
+</g>
+<g transform="translate(236,24)">
+<ellipse cx="0" cy="0" rx="6" ry="10" transform="rotate(-15)"/>
+<ellipse cx="0" cy="0" rx="6" ry="10" transform="rotate(15)"/>
+<path d="M0 10 q-1 8 1 12" stroke="#b9a284" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</g>
+<g fill="#fff" stroke="#e8d9bd" stroke-width="2">
+<circle cx="196" cy="52" r="12"/><circle cx="188" cy="44" r="9"/><circle cx="204" cy="43" r="10"/>
+</g>
+<g transform="translate(88,66)">
+<circle r="7" fill="#f28a1e"/><circle cx="-6" cy="0" r="2" fill="#4a3826"/><circle cx="6" cy="0" r="2" fill="#4a3826"/>
+<circle cx="-2" cy="-4" r="1.6" fill="#4a3826"/><circle cx="3" cy="3" r="1.6" fill="#4a3826"/>
+<circle cx="0" cy="-8" r="2.5" fill="#4a3826"/>
+</g>
+</svg>
+</main>
+<footer>掲載順は出展番号順です。内容は変更になる場合があります。最新情報は<a href="https://www.pref.kyoto.jp/biodic/news/ikimonofes2026.html" target="_blank" rel="noopener" style="color:inherit">きょうと生物多様性センターのページ</a>をご確認ください。</footer>
+<script>
+const D=[[4, "京都ビオトープ研究会いのちの森モニタリンググループ", "室内", "一般", "", "ポスター展示", "https://inochinomori.sakura.ne.jp/", []], [5, "西山自然保護ネットワーク", "室内", "一般", "", "写真展示とチラシ配布。小塩山のカタクリ、ギフチョウ、並びに会の取り組みを紹介", "https://nishiyamanet.sakura.ne.jp/", []], [8, "比叡平里山クラブ", "室内", "一般", "ブースWS", "ポスター展示・標本展示・どんぐりを利用した工作など", "https://official.yamanakahieidaira.net/里山クラブ/", []], [18, "落ち葉探偵", "室内", "一般", "", "ポスター展示、パンフ等資料配布", "https://otibatantei.studio.site/", []], [20, "木津川市・かせやまの森", "室内", "一般", "", "かせやまの森の活動団体紹介、環境調査の結果報告、竹チップの活用", "https://www.kaseyama-sozo.com/", []], [21, "NPO法人 乙訓の自然を守る会", "室内", "一般", "観察会", "乙訓の自然の紹介等", "", []], [22, "大原野森林公園運営管理協会", "室内", "一般", "", "ポスター掲示", "", []], [28, "独立行政法人環境再生保全機構", "屋外（植物園開館前）", "協賛", "ブースWS", "タブレットを使用したワークショップ等、パネル展示", "https://www.erca.go.jp/jfge/index.html", []], [37, "自然と触れ合う体験農園の会", "屋外（植物園開館前）", "一般", "ブースWS", "ポスター展示、野菜や木の実などを使ったワークショップ、販売", "", []], [41, "京の森林文化（京都府森の保全推進課）", "屋外（植物園開館前）", "一般", "ブースWS／研修室WS", "京ひのきのサシェづくり体験、緑化ポスター入賞作品展示、京都モデルフォレスト運動20周年パネル展示", "https://www.pref.kyoto.jp/shinrinhozen/moribunka.html", ["研修室WS「京からはじめる森林づくり！」は定員30人"]], [43, "森の工房ばんどり", "屋外（植物園開館前）", "販売", "", "花と生き物を描いた絵画と生き物グッズの販売、ワークショップ", "https://www.instagram.com/bandori_art", []], [47, "NPOやましろ里山の会", "屋外（植物園開館前）", "一般", "ブースWS", "ポスター展示、松かさツリー・竹エンピツ作り", "https://ncknet.com/members/yamashiro-satoyamanokai/", ["竹蛇篭製作教室は事前申込制"]], [48, "わかばプロジェクト", "屋外（クスノキ並木）", "一般", "ブースWS", "どんぐりなどの木の苗と苔の盆栽作りワークショップ。南丹市日吉町の「100万本の森づくり」（針葉樹林から広葉樹林への転換）に、苗木を育てるところから気軽に参加できる流れづくりを進めています", "https://dmoa.ciao.jp", []], [49, "葉っぱ案内所", "屋外（クスノキ並木）", "販売", "", "森林生態学を中心とした学習漫画の販売", "https://www.instagram.com/cocopoke_no19", []], [50, "山仕事サークル杉良太郎", "屋外（クスノキ並木）", "一般", "", "活動の紹介、手作りの葉脈栞、杉葉線香、匂い袋、竹箸等を販売", "https://www.instagram.com/sugiyoshi_taro/", []], [52, "エコパートナーシップうじたわら", "屋外（クスノキ並木）", "一般", "", "ポスター展示、「宇治田原町の自然環境」販売（1冊500円）", "https://www.town.ujitawara.kyoto.jp/soshiki/nourinnkannkyouka/seikatsu_kankyo_1/1/index.html", []], [54, "山の人と町の人をむすび鯛", "屋外（クスノキ並木）", "一般", "ブースWS", "ポスター展示、枝ぶえ人形づくりワークショップなど", "https://www.instagram.com/yamamachi_musubi", []], [59, "世屋川流域エコミュージアムサービス", "屋外（クスノキ並木）", "一般", "ブースWS", "自然共生サイトに認定された棚田跡の園とマルヤ農林園（宮津市・世屋高原、標高約600m）の紹介。積雪量が府内トップクラスの雪が、豊かな水環境と命のホットスポットをつくっています", "", []], [68, "三重・森本里力再生協議会（ゲンゴロウ郷の米農法委員会）・龍谷大学環境サイエンスコース谷垣ゼミ", "屋外（大芝生地）", "一般", "", "ゲンゴロウ郷の米の取り組み紹介", "https://miemorimoto-kyoto.com/gengoro/", []], [83, "京都大学フィールド科学教育研究センター", "ブースなし", "一般", "研修室WS", "森里川海・里山・里海で活動する時のコーディネートをテーマに意見交換（ワークショップ）", "https://fserc.kyoto-u.ac.jp/wp/", ["研修室WSは事前申込制・定員20名程度"]]];
+const F=["すべて","ワークショップ","観察会","販売","室内","屋外"];let cur="すべて";
+const fe=document.getElementById("f"),g=document.getElementById("g"),c=document.getElementById("c");
+const ok=(d,k)=>k=="すべて"||(k=="ワークショップ"&&d[4].includes("WS"))||(k=="観察会"&&d[4].includes("観察会"))||(k=="販売"&&d[3]=="販売")||(k=="室内"&&d[2]=="室内")||(k=="屋外"&&d[2].startsWith("屋外"));
+const esc=s=>s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const tagCls=d=>d=="観察会"?"tag ob":"tag ws";
+const spCls=d=>d=="協賛"?"tag kj":"tag sp";
+function draw(){fe.innerHTML=F.map(k=>`<button class="${k==cur?"on":""}" data-k="${k}">${k}</button>`).join("");
+const l=D.filter(d=>ok(d,cur));c.innerHTML=`<b>${l.length}団体</b>を表示しています`;
+g.innerHTML=l.map(d=>`<article class="card"><span class="no">No.${d[0]}</span><h3>${esc(d[1])}</h3><div class="tags"><span class="tag">${d[2]}</span>${d[3]!="一般"?`<span class="${spCls(d[3])}">${d[3]}</span>`:""}${d[4]?`<span class="${tagCls(d[4])}">${d[4]}</span>`:""}</div><p>${esc(d[5])}</p>${d[7].length?`<ul class="nt">${d[7].map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}${d[6]?`<a class="link" href="${d[6]}" target="_blank" rel="noopener">▶ ${d[6].includes("instagram")?"Instagram":"ホームページ"}を見る</a>`:""}</article>`).join("");
+fe.querySelectorAll("button").forEach(b=>b.onclick=()=>{cur=b.dataset.k;draw()})}
+draw();
+</script></body></html>
